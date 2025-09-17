@@ -1,11 +1,18 @@
-# Ignore Python virtual environment
+# Python virtual environment
 venv/
 health/Lib/
 
-# Ignore Python cache files
+# Byte-compiled / cache files
 __pycache__/
 *.pyc
 
-# Ignore Django migration files (optional)
+# Django migration files
 */migrations/*.py
 */migrations/*.pyc
+
+# Database file
+db.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
